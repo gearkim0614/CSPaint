@@ -1,9 +1,3 @@
-/*
-In order to help learn course concepts, I worked on the homework with [TAs],
-discussed homework topics and issues with [TAs],
-and/or consulted related material that can be found at:
-- https://docs.oracle.com/javafx/2/ui_controls/radio-button.htm
- */
 import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.scene.layout.VBox;
@@ -29,7 +23,7 @@ import static javafx.scene.paint.Color.LIGHTGREY;
  * This class uses javafx to demonstrate what mspaint does
  * Extra Features: Make Square, Dotted lines(when you move cursor fast), Clear canvas, Mystery Button
  * @author Kibeom Kim
- * @version CS1331 HW9 v1
+ * @version 1.02
  */
 public class CSPaint extends Application {
 
@@ -93,9 +87,9 @@ public class CSPaint extends Application {
 
         buttonNaughty.setOnAction(e -> {
                 Alert wow = new Alert(AlertType.CONFIRMATION);
-                wow.setTitle("I FELL OFF MY CHAIR");
+                wow.setTitle("CAUTION!");
                 wow.setHeaderText("YOU CLICKED IT..?! uwu");
-                wow.setContentText("Oh you naughty");
+                wow.setContentText("Santa added you to naughty list!");
                 wow.showAndWait();
             });
 
